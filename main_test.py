@@ -7,5 +7,5 @@ class MainTest(unittest.TestCase):
         ret = main.helloworld("Test")
         self.assertEqual(ret , "Hello world! Test")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     unittest.main()
